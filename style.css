@@ -23,6 +23,7 @@ body {
     align-items: center;
     transition: transform 0.6s; 
     cursor: pointer;
+    background-image: url(src/pokedex.png);
 }
 
 .box:hover {
@@ -59,7 +60,7 @@ body {
 
 .fetch-title {
     color: rgb(0, 0, 0); 
-    background-color: #00aeff;
+    background-color: #ff2424;
     padding: 20px;
     border-radius: 50px;
     width: fit-content;
