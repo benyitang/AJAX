@@ -1,28 +1,24 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="es">
 <head>
-  <title>Pokemon</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="src/favicon.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeApi</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <div class="box">
-    <div class="container">
-      <div class="content">
-        <h2 class="fetch-title">
-        Pokedex / Api Pokemon
-          <span class="badge bg-secondary">Api</span>
-        </h2>
-        <input type="number" id="nPokemon" placeholder="Ingresar un número" data="" />
-        <button onclick="buscar()">Buscar</button>
-      </div>
+    <div class="pokedex">
+      
+      <img id="pokedexLogo" src="src/logo1.png" alt="Pokédex">
+      <h1>¡Busque su pokemon por su ID!</h1>
+        <input type="number" id="pokemonNumber" placeholder="Ingrese el número del Pokémon">
+        <div></div>
+        <button onclick="buscarPokemon()">¡BUSCAR POKEMON!</button>
+        <div></div>
+        <div id="pokemonInfo">
+        </div>
     </div>
-
-    <div id="Carta"></div>
-  </div>
-
-  <script src="java1.js"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
