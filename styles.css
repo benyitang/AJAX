@@ -29,6 +29,7 @@ input[type="number"] {
     margin-bottom: 15px;
     border-radius: 10px;
     border: 1px solid #ccc;
+    width: 90%;
 }
 
 button {
